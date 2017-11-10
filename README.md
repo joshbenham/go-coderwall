@@ -5,11 +5,18 @@ A port of a simple script to show the User's badges they have on http://coderwal
 ## usage
 
 ```
-usage: coderwall <username>
+usage: go-coderwall <username>
 ```
 
 ## examples
 
 ```
-$ coderwall joshbenham
+$ go-coderwall joshbenham
+```
+
+## install
+
+* from source
+```
+go get github.com/joshbenham/go-coderwall
 ```

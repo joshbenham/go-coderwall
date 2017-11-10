@@ -22,7 +22,7 @@ func main() {
 	app := cli.NewApp()
 	app.Name = "Coderwall"
 	app.Usage = "Fetch Coderwall stats for a user"
-	app.UsageText = "coderwall <username>"
+	app.UsageText = "go-coderwall <username>"
 
 	app.Action = func(c *cli.Context) error {
 		if c.NArg() == 0 {
