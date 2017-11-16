@@ -7,17 +7,6 @@ import (
 	"github.com/urfave/cli"
 )
 
-// CoderwallUser stores the user json
-type CoderwallUser struct {
-	ID       int
-	Username string
-}
-
-// Coderwall stores the json response
-type Coderwall struct {
-	User []CoderwallUser
-}
-
 func main() {
 	app := cli.NewApp()
 	app.Name = "Coderwall"
